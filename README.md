@@ -4,3 +4,5 @@
 ## kasutatav tarkvara
 [PHP storm tarkvara](https://www.jetbrains.com/phpstorm/documentation/)
 [git tarkvara](https://git-scm.com/doc)
+
+[README in English](C:\Users\kristjan.konsap\PhpstormProjects\pvk\README.en.md)
