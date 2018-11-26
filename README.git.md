@@ -17,3 +17,4 @@
 8. commitide tühistamine lokaalses repos
 `git revert` või `git reset`
 
+[Git Cheat Sheet](https://rubygarage.s3.amazonaws.com/uploads/article_image/file/600/git-cheatsheet-6.jpg)
