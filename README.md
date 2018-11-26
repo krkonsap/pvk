@@ -5,4 +5,4 @@
 [PHP storm tarkvara](https://www.jetbrains.com/phpstorm/documentation/)
 [git tarkvara](https://git-scm.com/doc)
 
-[README in English](C:\Users\kristjan.konsap\PhpstormProjects\pvk\README.en.md)
+[README in English](https://github.com/krkonsap/pvk/blob/master/README.en.md)
