@@ -1,5 +1,5 @@
 # programmeerimisvahendite kasutamine
-19.11.2018
+19.11.2018 :shipit:
 
 ## kasutatav tarkvara
 [PHP storm tarkvara](https://www.jetbrains.com/phpstorm/documentation/)
