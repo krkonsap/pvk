@@ -1,7 +1,7 @@
 # programmeerimisvahendite kasutamine
 19.11.2018 :shipit:
 
-[portfoolio ikt serveris](http://kristjankonsap.ikt.khk.ee/pvk/portfolio)
+[portfoolio ikt serveris](http://kristjankonsap.ikt.khk.ee/pvk/portfolio/index.html)
 
 ## kasutatav tarkvara
 [PHP storm tarkvara](https://www.jetbrains.com/phpstorm/documentation/)
