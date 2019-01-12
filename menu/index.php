@@ -6,6 +6,33 @@
  * Time: 15:31
  */
 
+$menu = array(
+        array(
+                'tyyp' => 'praed',
+            'nimi' => 'Šnitsel',
+            'hind' => 2.80
+        ),
+    array(
+        'tyyp' => 'praed',
+        'nimi' => 'Strooganov',
+        'hind' => 2.40
+    ),
+    array(
+        'tyyp' => 'supid',
+        'nimi' => 'Borš',
+        'hind' => 1.80
+    ),
+    array(
+        'tyyp' => 'magustoidud',
+        'nimi' => 'Tiramisu',
+        'hind' => 1.30
+    ),
+    array(
+        'tyyp' => 'joogid',
+        'nimi' => 'Morss',
+        'hind' => 0.30
+    ),
+);
 ?>
 
 <!DOCTYPE html>
