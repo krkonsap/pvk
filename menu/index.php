@@ -87,12 +87,9 @@ function kuvaMenu($tyyp){
             <div class="card">
                 <h1 class="card-header">MAGUSTOIDUD</h1>
                 <ul class="list-group">
-                    <li class="list-group-item">
-                        <p>Tiramisu <span class="badge badge-primary">1,20€</span></p>
-                    </li>
-                    <li class="list-group-item">
-                        <p>Kohupiim moosiga <span class="badge badge-primary">0,90€</span></p>
-                    </li>
+                    <?php
+                    kuvaMenu('magustoidud');
+                    ?>
                 </ul>
             </div>
         </div>
@@ -100,18 +97,9 @@ function kuvaMenu($tyyp){
             <div class="card">
                 <h1 class="card-header">JOOGID</h1>
                 <ul class="list-group">
-                    <li class="list-group-item">
-                        <p>Vesi <span class="badge badge-primary">TASUTA</span></p>
-                    </li>
-                    <li class="list-group-item">
-                        <p>Piim <span class="badge badge-primary">0,30€</span></p>
-                    </li>
-                    <li class="list-group-item">
-                        <p>Morss <span class="badge badge-primary">0,25€</span></p>
-                    </li>
-                    <li class="list-group-item">
-                        <p>Konjak <span class="badge badge-primary">2,50€</span></p>
-                    </li>
+                    <?php
+                    kuvaMenu('joogid');
+                    ?>
                 </ul>
             </div>
         </div>
