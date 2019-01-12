@@ -34,6 +34,10 @@ $menu = array(
     ),
 );
 
+function omaHind($ale, $hind){
+    return round($ale * $hind);
+};
+
 function kuvaMenu($tyyp){
     global $menu;
     foreach ($menu as $roog){
