@@ -73,12 +73,11 @@ function kuvaMenu($tyyp){
             <div class="card">
                 <h1 class="card-header">SUPID</h1>
                 <ul class="list-group">
-                    <li class="list-group-item">
-                        <p>Kapsasupp <span class="badge badge-primary">1,50€</span></p>
-                    </li>
-                    <li class="list-group-item">
-                        <p>Borš <span class="badge badge-primary">1,75€</span></p>
-                    </li>
+
+                    <?php
+                    kuvaMenu('supid');
+                    ?>
+
                 </ul>
             </div>
         </div>
