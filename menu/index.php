@@ -39,7 +39,7 @@ function kuvaMenu($tyyp){
     foreach ($menu as $roog){
        if($roog['tyyp'] === $tyyp) {
            echo '<li class="list-group-item">
-                    <p>'.$roog['nimi'].'<span class="badge badge-primary">'.$roog['hind'].'€</span></p>
+                    <p>'.$roog['nimi'].' '.'<span class="badge badge-primary">'.$roog['hind'].'€</span></p>
                 </li>';
        }
     }
@@ -61,15 +61,11 @@ function kuvaMenu($tyyp){
             <div class="card">
                 <h1 class="card-header">PRAED</h1>
                 <ul class="list-group">
-                    <li class="list-group-item">
-                        <p>Šnitsel <span class="badge badge-primary">2,80€</span></p>
-                    </li>
-                    <li class="list-group-item">
-                        <p>1/2 Šnitsel <span class="badge badge-primary">1,90€</span></p>
-                    </li>
-                    <li class="list-group-item">
-                        <p>Strooganov <span class="badge badge-primary">2,30€</span></p>
-                    </li>
+
+                    <?php
+                    kuvaMenu('praed');
+                    ?>
+
                 </ul>
             </div>
         </div>
