@@ -32,6 +32,26 @@ $menu = array(
         'nimi' => 'Morss',
         'hind' => 0.30
     ),
+    array(
+        'tyyp' => 'joogid',
+        'nimi' => 'Piim',
+        'hind' => 0.20
+    ),
+    array(
+        'tyyp' => 'joogid',
+        'nimi' => 'Mahl',
+        'hind' => 0.60
+    ),
+    array(
+        'tyyp' => 'supid',
+        'nimi' => 'Kapsasupp',
+        'hind' => 1.65
+    ),
+    array(
+        'tyyp' => 'magustoidud',
+        'nimi' => 'Kohupiim moosiga',
+        'hind' => 1.50
+    ),
 );
 
 function omaHind($ale, $hind){
