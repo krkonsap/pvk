@@ -33,6 +33,17 @@ $menu = array(
         'hind' => 0.30
     ),
 );
+
+function kuvaMenu($tyyp){
+    global $menu;
+    foreach ($menu as $roog){
+       if($roog['tyyp'] === $tyyp) {
+           echo '<li class="list-group-item">
+                    <p>'.$roog['nimi'].'<span class="badge badge-primary">'.$roog['hind'].'€</span></p>
+                </li>';
+       }
+    }
+};
 ?>
 
 <!DOCTYPE html>
