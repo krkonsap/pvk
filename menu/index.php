@@ -35,7 +35,7 @@ $menu = array(
 );
 
 function omaHind($ale, $hind){
-    return round($ale * $hind);
+    return round(($ale * $hind),2);
 };
 
 function kuvaMenu($tyyp){
@@ -43,7 +43,9 @@ function kuvaMenu($tyyp){
     foreach ($menu as $roog){
        if($roog['tyyp'] === $tyyp) {
            echo '<li class="list-group-item">
-                    <p>'.$roog['nimi'].' '.'<span class="badge badge-primary">'.$roog['hind'].'€</span></p>
+                    <p>'.$roog['nimi'].' '.'<span class="badge badge-primary">'.$roog['hind'].'€</span>
+                    <span class="badge badge-success">'. omaHind(0.75, $roog['hind']). '€'.'</span>
+                    </p>
                 </li>';
        }
     }
