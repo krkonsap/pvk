@@ -36,7 +36,7 @@ $supid = array(
 
 $magusad = array(
     array(
-        'nimetus' => 'Rosinakisell vahukoorega',
+        'nimetus' => 'Rosinakissell vahukoorega',
         'kirjeldus' => '',
         'hind' => 1.05),
 
