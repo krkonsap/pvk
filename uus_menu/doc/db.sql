@@ -17,7 +17,7 @@ CREATE TABLE `session` (
 -- Struktuur tabelile `user`
 --
 
-CREATE TABLE `user` (
+CREATE TABLE `user1` (
   `user_id` bigint(20) unsigned NOT NULL auto_increment,
   `username` varchar(255) collate latin1_general_ci NOT NULL,
   `password` varchar(255) collate latin1_general_ci NOT NULL,
