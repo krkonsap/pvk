@@ -9,3 +9,7 @@ a:hover {
 ul {
     list-style-type: none;
 }
+
+h2 {
+    text-transform: uppercase;
+}

@@ -8,8 +8,11 @@ require_once 'conf.php';
 $mainTmpl = new Template('main');
 $contentTmpl = new Template('content');
 $cardTmpl = new Template('card');
+$cardHeaderTmpl = new Template('header');
 
 $mainTmpl ->set('title', 'Menu App');
+
+$cardTmpl->set('card_header', $cardHeaderTmpl->parse());
 
 $contentTmpl->add('cards', $cardTmpl->parse());
 $contentTmpl->add('cards', $cardTmpl->parse());
